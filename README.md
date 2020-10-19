@@ -1,2 +1,2 @@
 # SahilShop
-MY First Ecoomerce website (FRONT-END)
+MY First Ecommerce website (FRONT-END)
