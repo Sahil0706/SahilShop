@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport">
+<title> Login Page</title>
+<link rel="icon" href="https://www.iconarchive.com/download/i77853/custom-icon-design/pretty-office-11/shop.ico" type="image/x-icon">
+
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: pink;
+}
+button { 
+       background-color: #4CAF50; 
+       width: auto;
+        color: orange; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+ .container { 
+padding: 25px; 
+background-color: lightblue;
+width:30%;
+border: 3px solid #f1f1f1; 
+float:right;
+    } 
+</style>
+
+ 
+</head>  
+<body>  
+    <center> <h1>
+    User Login <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/220px-User_icon_2.svg.png" width="33px" height="35px" style="vertical-align:middle">
+    </h1> </center> 
+<img src="https://www.iconarchive.com/download/i77853/custom-icon-design/pretty-office-11/shop.ico"  width="57%"  style="float:left">
+    <form action="index.html">
+        <div class="container"> 
+            <label>Username : </label> <br>
+            <input type="text" placeholder="Enter Username" name="username" required><br>
+            <label>Password : </label> <br>
+            <input type="password" placeholder="Enter Password" name="password" required><br>
+            <input type="checkbox" checked="checked"> Remember me 
+ <button type="submit">Login</button> <br>
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>   
+</body>   
+</html>
+
+ 
